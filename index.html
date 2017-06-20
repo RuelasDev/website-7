@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Diego Ruelas | Front End Developer</title>
+    <link rel='stylesheet' href="css/normalize.css">
+    <link rel='stylesheet' href="css/main.css">
+    <link rel='stylesheet' href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+  </head>
+  <body>
+    
+    <header>
+      <h1>Build a Song</h1>
+      <p>by Diego Ruelas</p>
+    
+    </header>
+    
+    <div class='timer-container'>
+      <div class='timer' id='t1'></div>
+      <div class='timer' id='t2'></div>
+      <div class='timer' id='t3'></div>
+      <div class='timer' id='t4'></div>
+    </div>
+    
+    <section>
+      <p class='heading'>Drums</p>
+    <div class='drums-container'>
+      <div class='square pulseOne' id='One' onclick='toggler(this)'></div>
+       <audio src="audio/drums1.wav" id='AudioOne'></audio>
+      <audio src="audio/drums1.wav" id='AudioOnev2'></audio> 
+      
+      <div class='square pulseOne' id='Two' onclick='toggler(this)'></div>
+      <audio src="audio/drums2.wav" id='AudioTwo'></audio>
+      <audio src="audio/drums2.wav" id='AudioTwov2'></audio>
+      
+      <div class='square pulseOne' id='Three' onclick='toggler(this)'></div>
+      <audio src="audio/drums3.wav" id='AudioThree'></audio>
+      <audio src="audio/drums3.wav" id='AudioThreev2'></audio>
+      
+      <div class='square pulseOne' id='Four' onclick='toggler(this)'></div>
+      <audio src="audio/drums4.wav" id='AudioFour'></audio>
+      <audio src="audio/drums4.wav" id='AudioFourv2'></audio>
+      
+    </div><!--end of drums container-->
+    </section><!--end of section-->
+    
+    <section>
+      <p class='heading'>Sounds</p>
+    <div class='sound-container'>     
+      <div class='square pulseTwo' id='Five' onclick='togglerSecond(this)'></div>
+      <audio src="audio/sound1.wav" id='AudioFive'></audio>
+      <audio src="audio/sound1.wav" id='AudioFivev2'></audio>
+      
+      <div class='square pulseTwo' id='Six' onclick='togglerSecond(this)'></div>
+      <audio src="audio/sound2.wav" id='AudioSix'></audio>
+      <audio src="audio/sound2.wav" id='AudioSixv2'></audio>
+      
+      <div class='square pulseTwo' id='Seven' onclick='togglerSecond(this)'></div>
+      <audio src="audio/sound3.wav" id='AudioSeven'></audio>
+      <audio src="audio/sound3.wav" id='AudioSevenv2'></audio>
+      
+      <div class='square pulseTwo' id='Eight' onclick='togglerSecond(this)'></div>
+      <audio src="audio/sound4.wav" id='AudioEight'></audio>
+      <audio src="audio/sound4.wav" id='AudioEightv2'></audio>
+      
+    </div><!--end of sound container div-->
+    </section><!--end of section-->
+    
+    <section>
+      <p class='heading'>Bass</p>
+    <div class='bass-container'>
+      <div class='square pulseThree' id='Nine' onclick='togglerThird(this)'></div>
+      <audio src="audio/bass1.wav" id='AudioNine'></audio>
+       <audio src="audio/bass1.wav" id='AudioNinev2'></audio>
+      
+      <div class='square pulseThree' id='Ten' onclick='togglerThird(this)'></div>
+      <audio src="audio/bass2.wav" id='AudioTen'></audio>
+      <audio src="audio/bass2.wav" id='AudioTenv2'></audio>
+      
+      <div class='square pulseThree' id='Eleven' onclick='togglerThird(this)'></div>
+      <audio src="audio/bass3.wav" id='AudioEleven'></audio>
+      <audio src="audio/bass3.wav" id='AudioElevenv2'></audio>
+      
+      <div class='square pulseThree' id='Twelve' onclick='togglerThird(this)'></div>
+      <audio src="audio/bass4.wav" id='AudioTwelve'></audio>
+      <audio src="audio/bass4.wav" id='AudioTwelvev2'></audio>
+      
+    </div><!--end of bass container-->
+    </section><!--end of section-->
+    
+    <p class='credit'>Audio samples were made and belong to Hugo Pierre Leclercq Also Known as "Madeon".</p>
+    <p class='credit'>Using Song Machine is best used with earphones or headphones.</p>
+    
+    <script src="js/main.js"></script>
+  </body>
+  
+</html>
